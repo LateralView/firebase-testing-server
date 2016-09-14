@@ -1,0 +1,26 @@
+{
+  "name": "firebase-testing-server",
+  "version": "1.0.0",
+  "description": "Firebase local server to test security and valiidation rules",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LateralView/firebase-testing-server"
+  },
+  "author": "Diego García",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "faye-websocket": "^0.11.0",
+    "firebase-server": "urish/firebase-server#master",
+    "firebase-token-generator": "^2.0.0",
+    "lodash": "^4.14.1",
+    "mocha": "^2.5.3",
+    "proxyquire": "^1.7.10"
+  },
+  "dependencies": {
+    "firebase": "^3.2.0"
+  }
+}

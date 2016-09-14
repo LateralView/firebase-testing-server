@@ -1,0 +1,13 @@
+{
+  "users" : {
+    "user1": {
+      "name": "Diego Garcia",
+      "email": "diego@lateralview.net",
+      "admin": false
+    },
+    "user2": {
+      "name": "Fernando Gonzalez",
+      "email": "fernando@lateralview.net"
+    }
+  }
+}

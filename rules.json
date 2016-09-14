@@ -1,0 +1,13 @@
+{
+  "rules": {
+    "users" : {
+      ".read": "auth.uid != null",
+      "$userId": {
+        ".write": "$userId === auth.uid && newData.exists()",
+        "admin": {
+          ".validate": false
+        }
+      }
+    }
+  }
+}
